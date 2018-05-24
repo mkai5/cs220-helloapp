@@ -1,4 +1,2 @@
-jobs:
-  include:
-  - stage: test
-    script: echo "pytest"
+language: Python
+script: pytest
