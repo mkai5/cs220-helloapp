@@ -1,4 +1,2 @@
-jobs:
-  include:
-  - stage: test
-    script: ./pytest
+language: Python
+script: pytest
